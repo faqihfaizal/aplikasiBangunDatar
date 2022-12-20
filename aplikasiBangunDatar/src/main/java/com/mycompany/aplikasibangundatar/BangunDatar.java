@@ -27,4 +27,7 @@ abstract class BangunDatar {
     public void setNamaBangunDatar(String namaBangunDatar) {
         this.namaBangunDatar = namaBangunDatar;
     }
+    
+    abstract double luas();
+    abstract double keliling();
 }
